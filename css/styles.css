@@ -21,8 +21,8 @@ section{
     text-align: justify;
   }
 .contenedor{
-    
-    /*margin: 64px;*/
+    align-items: center;
+    margin: 4px;
 
 }
 .card{
@@ -30,13 +30,13 @@ section{
     width: 300px;
     overflow: hidden;
     margin: auto;
-    padding: 10px 30px;
+    padding: 8px 30px;
     border-radius: 2%;
     border: 1px solid #fff;
     transition: all .4s ease-in-out;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
     text-align: center;
-    background: linear-gradient(-135deg, #c850c0,#4158d0);
+    background: linear-gradient(-135deg, #D6CFED,#430575);
 
 }
 .card:hover{
@@ -165,7 +165,11 @@ section{
 .info-personal{
     color: #fff;
 }
-
+.info-personal p{
+    font-size: 9px;
+    color: #c492f2;
+    text-align: center;
+}
 .menu{
     background: rgb(214, 207, 237);
     height: 75px;
@@ -222,6 +226,7 @@ ul.show{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
   }
   
   #perfil .contenedor {
@@ -248,6 +253,9 @@ ul.show{
     }
     .menu_items li a{
         font-size: 16px;
+    }
+    .contenedor{
+        gap: 5px;
     }
 }
 @media screen and (max-width: 858px){
@@ -288,6 +296,9 @@ ul.show{
     .logo{
         font-size: 25px;
         padding-left: 35px;
+    }
+    .contenedor{
+        grid-template-columns: 1fr;
     }
 }
 @media screen and (max-width: 858px) and (orientation: landscape) {
