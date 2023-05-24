@@ -45,3 +45,10 @@ body{
     background-color: rgba(0, 0, 0, .3);
     transition: .4s;
 }
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
