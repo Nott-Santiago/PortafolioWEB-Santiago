@@ -33,5 +33,9 @@ addEventListener('DOMContentLoaded', () =>{
     })
 
     secciones.forEach(seccion => observer.observe(seccion))
+    
+    document.querySelectorAll('nav a').forEach(anchor => {
 
+      });
+  
 })
