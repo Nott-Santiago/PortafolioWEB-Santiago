@@ -6,4 +6,7 @@ addEventListener('DOMContentLoaded', () =>{
             menu_items.classList.toggle('show')
         })
     }
+
+    const secciones = document.querySelectorAll('.section')
+    const menuItems = document.querySelectorAll('.menu_item')
 })
