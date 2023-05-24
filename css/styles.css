@@ -14,12 +14,14 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4em;
+    font-size: 1em;
 }
 section div {
     margin: 10px;
   }
-
+  p {
+    text-align: justify;
+  }
 
 .menu{
     background: rgb(214, 207, 237);
@@ -82,13 +84,18 @@ ul.show{
   #perfil div {
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
   }
 
+#perfil h1{
+    align-self: flex-start;
+}
 
+.perfil_div{
+    height: auto;
+    width: 60%;
 
+}
 
 
 @media screen and (max-width: 952px){
