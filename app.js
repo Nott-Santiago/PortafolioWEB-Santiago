@@ -33,26 +33,16 @@ addEventListener('DOMContentLoaded', () =>{
     })
 
     secciones.forEach(seccion => observer.observe(seccion))
-
-    document.querySelectorAll('nav a').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            target.scrollIntoView({
-                behavior: 'smooth'
-                
-          });
-        });
-      });
   
-      menuItems.forEach(item => {
-        item.addEventListener('click', e => {
-            e.preventDefault();
+    menuItems.forEach(item => {
+        item.addEventListener('click', ent => {
+            ent.preventDefault();
             const targetSectionId = item.dataset.url;
-            const targetSection = document.querySelector(targetSectionId);
+            const targetSection = document.getElementById(targetSectionId);
             targetSection.scrollIntoView({ 
                 behavior: 'smooth'
             });
     });
   });
+
 })
