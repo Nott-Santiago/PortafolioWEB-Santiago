@@ -41,3 +41,7 @@ body{
     text-transform: uppercase;
     color: #fff;
 }
+.menu_items li:hover, li.active{
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+}
