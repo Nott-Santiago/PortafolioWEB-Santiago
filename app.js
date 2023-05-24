@@ -50,7 +50,9 @@ addEventListener('DOMContentLoaded', () =>{
             e.preventDefault();
             const targetSectionId = item.dataset.url;
             const targetSection = document.querySelector(targetSectionId);
-
+            targetSection.scrollIntoView({ 
+                behavior: 'smooth'
+            });
     });
   });
 })
