@@ -104,3 +104,12 @@ ul.show{
         padding-left: 35px;
     }
 }
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items{
+        overflow: scroll;
+        height: calc(100% - 65%);
+    }
+}
