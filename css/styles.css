@@ -8,3 +8,13 @@ body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     background-color: #c9e6f5;
 }
+.menu{
+    background-color: aquamarine;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 2px 0 5px rgba(4, 83, 109, 0.4);
+}
