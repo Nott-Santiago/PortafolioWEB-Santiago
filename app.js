@@ -49,7 +49,8 @@ addEventListener('DOMContentLoaded', () =>{
         item.addEventListener('click', e => {
             e.preventDefault();
             const targetSectionId = item.dataset.url;
-            
+            const targetSection = document.querySelector(targetSectionId);
+
     });
   });
 })
