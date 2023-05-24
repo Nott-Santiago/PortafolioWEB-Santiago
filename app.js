@@ -17,6 +17,11 @@ addEventListener('DOMContentLoaded', () =>{
             if (entrty.isIntersecting){
                 const itemActual = Array.from(menuItems).find(item => item.dataset.url == entrty.target.id)
                 itemActual.classList.add('active')
+                for(const item of menuItems){
+                    if(item != itemActual){
+                        item.classList.remove('active')
+                    }
+                }
             }
         })
     }
