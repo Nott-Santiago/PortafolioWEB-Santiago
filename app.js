@@ -7,16 +7,18 @@ addEventListener('DOMContentLoaded', () =>{
         })
     }
 
+
+
     const secciones = document.querySelectorAll('.seccion')
     const menuItems = document.querySelectorAll('.menu_item')
 
     const funcionObserver = entries => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting){
-                const itemActual = Array.from(menuItems).find(item => item.CDATA_SECTION_NODE.url == entry.target.id)
+        entries.forEach(entrty => {
+            if (entrty.isIntersecting){
+                const itemActual = Array.from(menuItems).find(item => item.dataset.url == entrty.target.id)
                 itemActual.classList.add('active')
             }
-        });
+        })
     }
 
     const observer = new IntersectionObserver(funcionObserver,{
@@ -24,5 +26,7 @@ addEventListener('DOMContentLoaded', () =>{
         rootMargin: '0px',
         threshold: 0.8
     })
-    secciones.forEach(secccion => observer(secccion))
+
+    secciones.forEach(seccion => observer.observe(seccion))
+
 })
