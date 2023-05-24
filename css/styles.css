@@ -7,7 +7,6 @@
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     background-color: #c9e6f5;
-    margin-top: 75px;
 }
 .menu{
     background: rgb(214, 207, 237);
@@ -35,7 +34,7 @@ body{
 }
 .menu_items{
     border-radius: 3px;
-    margin: 5 5px;
+    margin: 0 5px;
 }
 .menu_items li a{
     padding: 7px 13px;
@@ -66,13 +65,9 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
+    font-size: 4em;
 }
-.item{
-    background-color: aquamarine;
-    margin-right: 20px;
-    margin-left: 20px;
-}
+
 @media screen and (max-width: 952px){
     .logo{
         font-size: 30px;
