@@ -18,3 +18,9 @@ body{
     border-bottom: 1px solid #fff;
     box-shadow: 2px 0 5px rgba(4, 83, 109, 0.4);
 }
+.logo{
+    color: #fff;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
