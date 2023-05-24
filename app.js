@@ -44,5 +44,10 @@ addEventListener('DOMContentLoaded', () =>{
           });
         });
       });
-      
+  
+      menuItems.forEach(item => {
+        item.addEventListener('click', e => {
+            
+    });
+  });
 })
