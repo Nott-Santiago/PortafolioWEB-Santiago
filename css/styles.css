@@ -17,6 +17,9 @@ body{
     align-items: center;
     border-bottom: 1px solid #fff;
     box-shadow: 2px 0 5px rgba(4, 83, 109, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .logo{
     color: #fff;
