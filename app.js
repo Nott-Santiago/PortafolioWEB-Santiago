@@ -29,11 +29,11 @@ addEventListener('DOMContentLoaded', () =>{
     const observer = new IntersectionObserver(funcionObserver,{
         root: null,
         rootMargin: '0px',
-        threshold: 0.8
+        threshold: 0.6
     })
 
     secciones.forEach(seccion => observer.observe(seccion))
-  
+    
     menuItems.forEach(item => {
         item.addEventListener('click', ent => {
             ent.preventDefault();
