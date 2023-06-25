@@ -17,16 +17,16 @@
 <body>
 <!--header-->
     <header class="header" id="inicio">
-        <img src="img/bx-menu.svg" alt="menu-icono" class="menu">
+        <img src="img/ic-menu.svg" alt="menu-icono" class="menu">
         <nav class="menu-nav">
             <a href="#inicio">Inicio</a>
-            <a href="habilidades">Habilidades</a>
-            <a href="certificados">Certificados y proyectos</a>
-            <a href="extracurricular">Extracurricular</a>
-            <a href="contacto">Contacto</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#certificados">Certificados y proyectos</a>
+            <a href="#extra">Extracurricular</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <div class="contenedor head">
-            <h1>SANTIAGO GUADALUPE MENDOZA PEREZ</h1>
+            <h1 class="titulo">SANTIAGO GUADALUPE MENDOZA PEREZ</h1>
             <p class="copy">No se logra lo que nunca se intenta.</p>
         </div>
     </header>
@@ -38,32 +38,25 @@
             <p>
                 Practicante en búsqueda de una enriquecedora oportunidad laboral para aplicar y fortalecer mis conocimientos en el campo de la ingeniería de sistemas. Apasionado por aprender, con determinación y orientado a la excelencia en cada tarea que emprendo. Destaco en la versatilidad, resolución de problemas y trabajo efectivo en colaboración con otros, así como de forma individual.
             </p>
-            <h3>Campo de trabajo:</h3>
-            <div class="contenedor-areas">
-                <img src="img/pic_web_developer.svg" alt="">
-                <h4 class="n-area">Desarrollador</h4>
-            </div>
-            <div class="contenedor-areas">
-                <img src="img/pic_redes.svg" alt="">
-                <h4 class="n-area">Redes</h4>
-            </div>
-            <div class="contenedor-areas">
-                <img src="img/pic_gestion_pro.svg" alt="">
-                <h4 class="n-area">Gestión de Desarrollo de Software</h4>
-            </div>
-            <div class="contenedor-areas">
-                <img src="img/pic_analytics_data.svg" alt="">
-                <h4 class="n-area">Analisis de datos</h4>
-            </div>
-            <div class="contenedor-areas">
-                <img src="img/pic_ia.svg" alt="">
-                <h4 class="n-area">Machine Learning</h4>
+            <div class="pefil-areas">
+                <div class="contenedor-areas">
+                    <img src="img/pic_web_developer.svg" alt="">
+                    <h4 class="n-area">Desarrollo &#40;FrontEnd&#47;BackEnd&#41;</h4>
+                </div>
+                <div class="contenedor-areas">
+                    <img src="img/pic_redes.svg" alt="">
+                    <h4 class="n-area">Redes</h4>
+                </div>
+                <div class="contenedor-areas">
+                    <img src="img/pic_gestion_pro.svg" alt="">
+                    <h4 class="n-area">Gestión de Proyectos de Software</h4>
+                </div>
             </div>
         </section>
 
 <!--Sec2-->
         <section class="contenedor habilidades" id="habilidades">
-            <h2>HABILIDADES:</h2>
+            <h2 class="subtitulo">HABILIDADES:</h2>
             <h3>Habilidades técnicas:</h3>
             <div class="contenedor-habilidades">
                 <h4 class="skill-text"><i class="fa-brands fa-html5 fa-beat-fade fa-2xl" style="color: #450288;"></i>
@@ -76,22 +69,19 @@
                     PHP
                 </h4>
                 <h4 class="skill-text"><i class="fa-brands fa-js fa-beat-fade fa-2xl" style="color: #450288;"></i> 
-                    JS
+                    JavaScript
                 </h4>
                 <h4 class="skill-text"><i class="fa-brands fa-java fa-beat-fade fa-2xl" style="color: #450288;"></i>
                     Java
                 </h4>
-                <h4 class="skill-text"><i class="fa-brands fa-js fa-beat-fade fa-2xl" style="color: #450288;"></i>
-                    PHP
-                </h4>
                 <h4><i class="fa-brands fa-c fa-beat-fade fa-2xl" style="color: #450288;"></i>
-                    c++
+                    ++
                 </h4>
                 <h4><i class="fa-brands fa-python fa-beat-fade fa-2xl" style="color: #450288;"></i>
                     Python
                 </h4>
                 <h4><i class="fa-solid fa-database fa-beat-fade fa-2xl" style="color: #450288;"></i>
-                    Database (SQL, MySQL, PostgreSQL, MongoDB)
+                    Databases
                 </h4>
             </div>
             <h3>Habilidades blandas:</h3>
@@ -127,79 +117,83 @@
         </section>
         
 <!--Sec3-->
-        <section class="contenedor experiencia" id="experiencia">
-            <h2>CERTIFICADOS Y PROYECTOS</h2>
-            <div class="contenedor-certificado">
-                <h4>Introducción al Desarrollo Web: HTML y CSS (1)</h4>
-                <img src="img/cert_introduccion_html5_1.jpg" alt="">
-                <p>desc</p>
-                <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Verificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>
-                    Introducción al Desarrollo Web: HTML y CSS (2)
-                </h4>
-                <img src="img/cert_introduccion_html5_2.jpg" alt="">
-                <p>desc</p>
-                <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Verificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>CCNA: Enterprise Networking, Security, and Automation</h4>
-                <img src="img/cert_enterprise.png" alt="">
-                <p>desc</p>
-                <a href="https://www.credly.com/badges/56e82d00-3a08-4835-9ba0-352304378aa8/public_url" target="_blank">Verificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>CCNA: Switching, Routing, and Wireless Essentials</h4>
-                <img src="img/cert_switching.png" alt="">
-                <p>desc</p>
-                <a href="https://www.credly.com/badges/49bce2bb-f3e1-4912-8fb9-024f5bd359e5/public_url" target="_blank">Verificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>DevNet Associate</h4>
-                <img src="img/cert_dev.png" alt="">
-                <p>desc</p>
-                <a href="https://www.credly.com/badges/ec7ea5ba-9e82-4d81-a35b-cdc1d9050de7/public_url" target="_blank">Verificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>Introduction to Cybersecurity</h4>
-                <img src="img/cert_cyber.png" alt="">
-                <p>desc</p>
-                <a href="https://www.credly.com/badges/d007d0a2-c07b-45f1-8681-95e6546b7c85/public_url" target="_blank">Verificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>Técnico instalador de cableado estructurado</h4>
-                <img src="img/cert_tecnico.jpg" alt="">
-                <p>desc</p>
-                <a href="https://capacitateparaelempleo.org/verifica/a7651f06-7628-4817-9b69-8479332c1997/5000b284-ce56-402b-892b-b9ff11957184" target="_blank">aVerificar validez de certificado</a>
-            </div>
-            <div class="contenedor-certificado">
-                <h4>Scrum Foundation Professional Certificate SFPC</h4>
-                <img src="img/cert_scrum.jpg" alt="">
-                <p>desc</p>
-                <a href="./" target="_blank">Verificar validez de certificado</a>
-            </div>
+        <section class="contenedor certificadoss" id="certificados">
+            <h2 class="subtitulo">CERTIFICADOS Y PROYECTOS</h2>
             
+            <div class="cont-certi">
+                <div class="contenedor-certificado">
+                    <h4>Introducción al Desarrollo Web: HTML y CSS (1)</h4>
+                    <img class="img_con" src="img/cert_introduccion_html5_1.jpg" alt="">
+                    <p>desc</p>
+                    <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>
+                        Introducción al Desarrollo Web: HTML y CSS (2)
+                    </h4>
+                    <img class="img_con" src="img/cert_introduccion_html5_2.jpg" alt="">
+                    <p>desc</p>
+                    <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>CCNA: Enterprise Networking, Security, and Automation</h4>
+                    <img class="img_con" src="img/cert_enterprise.png" alt="">
+                    <p>desc</p>
+                    <a href="https://www.credly.com/badges/56e82d00-3a08-4835-9ba0-352304378aa8/public_url" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>CCNA: Switching, Routing, and Wireless Essentials</h4>
+                    <img class="img_con" src="img/cert_switching.png" alt="">
+                    <p>desc</p>
+                    <a href="https://www.credly.com/badges/49bce2bb-f3e1-4912-8fb9-024f5bd359e5/public_url" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>DevNet Associate</h4>
+                    <img class="img_con" src="img/cert_dev.png" alt="">
+                    <p>desc</p>
+                    <a href="https://www.credly.com/badges/ec7ea5ba-9e82-4d81-a35b-cdc1d9050de7/public_url" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>Introduction to Cybersecurity</h4>
+                    <img class="img_con" src="img/cert_cyber.png" alt="">
+                    <p>desc</p>
+                    <a href="https://www.credly.com/badges/d007d0a2-c07b-45f1-8681-95e6546b7c85/public_url" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>Técnico instalador de cableado estructurado</h4>
+                    <img class="img_con" src="img/cert_tecnico.jpg" alt="">
+                    <p>desc</p>
+                    <a href="https://capacitateparaelempleo.org/verifica/a7651f06-7628-4817-9b69-8479332c1997/5000b284-ce56-402b-892b-b9ff11957184" target="_blank">Verificar validez de certificado</a>
+                </div>
+                <div class="contenedor-certificado">
+                    <h4>Scrum Foundation Professional Certificate SFPC</h4>
+                    <img class="img_con" src="img/cert_scrum.jpg" alt="">
+                    <p>desc</p>
+                    <a href="./" target="_blank">Verificar validez de certificado</a>
+                </div>
+            </div>
         </section>
 
 <!--Sec4-->
         <section class="contenedor extra" id="extra">
-            <h2>EXTRACURRICULAR</h2>
+            <h2 class="subtitulo">EXTRACURRICULAR</h2>
             <h3>Intereses:</h3>
-            <div class="contenedor-extra">
-                <h4>Gimnasio</h4>
-                <img src="img/extra_gimnasio.jpg" alt="">
-                <p>Pasion por distintas diciplinas deportivas, entre ellas se encuentra la calistenia y el gimnasio</p>
-            </div>
-            <div class="contenedor-extra">
-                <h4>Edicion</h4>
-                <img src="img/extra_edits.jpg" alt="">
-                <p>Me gusta la edicion de videos</p>
-            </div>
-            <div class="contenedor-extra">
-                <h4>Lectura</h4>
-                <img src="img/extra_lectura.jpg" alt="">
-                <p>Pertenezco al club de lectura</p>
+            <div class="cont-intereses">
+                <div class="contenedor-extra">
+                    <h4>Gimnasio</h4>
+                    <img class="img-extra" src="img/extra_gimnasio.jpg" alt="">
+                    <p>Pasion por distintas diciplinas deportivas, entre ellas se encuentra la calistenia y el gimnasio</p>
+                </div>
+                <div class="contenedor-extra">
+                    <h4>Edicion</h4>
+                    <img class="img-extra" src="img/extra_edits.jpg" alt="">
+                    <p>Me gusta la edicion de videos</p>
+                </div>
+                <div class="contenedor-extra">
+                    <h4>Lectura</h4>
+                    <img class="img-extra" src="img/extra_lectura.jpg" alt="">
+                    <p>Pertenezco al club de lectura</p>
+                </div>
             </div>
         </section>
     </main>
