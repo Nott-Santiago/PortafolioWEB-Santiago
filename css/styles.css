@@ -224,7 +224,7 @@ header{
 .cont-intereses > div {
     flex-basis: 30%;
     margin: 0px 5px 25px 5px;
-    padding: 0px;            
+    padding: 0px 30px 0px 30px;            
     box-sizing: border-box;
 }
 .contenedor-extra{
@@ -232,6 +232,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .img-extra{
     width: auto;
@@ -249,3 +250,14 @@ header{
     text-align: justify;
 }
 
+.img-toggle {
+    pointer-events: none;
+}
+.email-h5{
+    color: #111b84;
+}
+.social-media{
+    margin: 15px 20px 5px 30px;
+    display: flex;
+    flex-direction: column;
+}
